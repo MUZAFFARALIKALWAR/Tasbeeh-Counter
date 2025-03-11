@@ -75,13 +75,13 @@ function Tasbeeh() {
 
                {/* Display */}
             <div className='flex space-x-5 justify-center items-center mt-5'>
-            <div className='w-[150px] h-[150px] bg-lime-400 cursor-pointer  rounded-[100%] 
+            <button className='w-[150px] h-[150px] bg-lime-400 cursor-pointer  rounded-[100%] 
               flex flex-col justify-start items-center' onClick={()=>hanlcounter()}>
                 <span className='text-lg mt-10 font-bold'>{Tasbeeh}</span> 
 
 
                <span className='mt-5 font-bold text-xl'>{counter}</span> 
-            </div>
+            </button>
                 <button className='bg-lime-400 w-[150px] h-[150px] rounded-[100%] font-bold' onClick={()=>handlereset()}>Reset</button>
             </div>
     </div>
